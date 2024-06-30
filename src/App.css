@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root,
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}

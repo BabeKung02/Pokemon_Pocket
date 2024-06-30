@@ -1,0 +1,34 @@
+header {
+    background-color:#FFCB05;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    header input.form-control {
+        width: 200px;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+    }
+
+    .container-fluid .d-flex {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .container-fluid .d-flex.align-items-center {
+        justify-content: flex-start;
+    }
+}

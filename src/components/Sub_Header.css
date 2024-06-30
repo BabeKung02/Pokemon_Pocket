@@ -1,0 +1,48 @@
+.pokemon-logo {
+    width: 156px;
+    height: 57px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    max-width: 507px;
+    border-radius:8px;
+}
+
+#search_input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px yellow; /* Add yellow border */
+  }
+  
+  #search-input:focus + .icon_clear {
+    display: block; /* Show icon on focus */
+  }
+
+.pocket {
+    margin-right: 20px;
+}
+
+.user-controls .username {
+    font-size: 1rem;
+}
+
+.user-controls .pocket .badge {
+    font-size: 0.75rem;
+}
+
+.linkButton {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .linkButton:hover {
+    background-color: #FFCB05;
+    color: rgb(0, 0, 0);
+    border: none;
+  }

@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+}
+
+.pokemon-info {
+    display: block;
+}
+
+.pokemon-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.pokemon-type{
+    margin:0 8px;
+    position:relative; left:50px;
+}
+
+.pokemon-name {
+    font-weight: bold;
+    font-size:16px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.badge {
+    margin-right: 5px;
+}
+
+.order-summary {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-summary h5 {
+    margin-bottom: 20px;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary .btn-danger {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #FF6F61;
+    height: 50px;
+}
