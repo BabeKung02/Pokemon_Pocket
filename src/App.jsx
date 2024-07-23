@@ -4,7 +4,7 @@ import { PocketProvider } from './components/PocketContext';
 import axios from 'axios';
 import Sub_Header from './components/Sub_Header';
 import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Not_Found from './components/Not_Found';
 import Detail from './components/Detail';
 import Pocket_List from './components/Pocket_List';
@@ -203,7 +203,7 @@ function App() {
             <Route path="/pokemon/:id" element={<Detail />} />
             <Route path="/pocket" element={<Pocket_List />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     </PocketProvider>
